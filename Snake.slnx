@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Snake/Snake.vcxproj" Id="736d6335-c81f-4958-97c2-09df0a1f0a12" />
+</Solution>
