@@ -9,11 +9,11 @@ void ClearScreen();
 
 class Snake {
 private:
-    int length;
-    short appleX{};
-    short appleY{};
-	short snakeX{};
-	short snakeY{};
+	int length; // Длина змейки
+	short appleX{}; // Координат яблока по оси X
+	short appleY{}; // Координат яблока по оси Y
+	short snakeX{}; // Координат змейки по оси X
+	short snakeY{}; // Координат змейки по оси Y
 public:
     explicit Snake(int initialLength) : length(initialLength) {
         display();
